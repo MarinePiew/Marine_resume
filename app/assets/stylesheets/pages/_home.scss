@@ -46,7 +46,7 @@
 }
 
 .mt {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .mb {
@@ -168,4 +168,17 @@ h1, h2, h3, h4, h5, h6 {
 #workwrap h4 {
   font-weight: 400;
   color: #ffffff
+}
+
+#about .justify {
+  text-align: left;
+}
+
+#about li {
+  text-align: left;
+  margin-left: 20px;
+}
+
+#works img {
+  margin: 0 20px 25px 0;
 }
