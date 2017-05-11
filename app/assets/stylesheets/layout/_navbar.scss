@@ -19,8 +19,27 @@
 
 .navbar-default .navbar-nav > li > a {
   color: #1abc9c;
+  background-color: transparent;
 }
 
 #logo {
   width: 50%;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: rgb(136, 136, 136);
+}
+
+@media only screen and (max-width: 844px) {
+  #logo {
+    width: 10%;
+    position: fixed;
+    top: 0;
+  }
+
+  .navbar-collapse{
+    margin-top: 5px;
+    background-color: rgb(245, 245, 220);
+    opacity: 0.8;
+  }
 }
